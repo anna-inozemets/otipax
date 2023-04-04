@@ -1,0 +1,29 @@
+{
+  "name": "otipax",
+  "homepage": "https://anna-inozemets.github.io/otipax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "http-server": "^14.1.1",
+    "prettier": "2.8.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server src -o",
+    "format": "prettier --write . --ignore-path .gitignore",
+    "lint": "eslint . --ignore-path .gitignore --fix",
+    "fix-style": "npm run format && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anna-inozemets/otipax.git"
+  },
+  "author": "anna-inozemets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anna-inozemets/otipax/issues"
+  }
+}
