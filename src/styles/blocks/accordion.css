@@ -1,0 +1,82 @@
+.accordion {
+  width: 100%;
+}
+
+.accordion__button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0 15px 175px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  background: #bbe5f9;
+  border-radius: 10px;
+  transition: max-height 0.2s ease-out;
+  cursor: pointer;
+}
+
+.accordion__button::after {
+  position: absolute;
+  content: url('../../images/plus.svg');
+  top: 50%;
+  transform: translateY(-35%);
+  right: 26px;
+}
+
+.accordion__button-img {
+  margin-right: 45px;
+}
+
+.accordion__button-img--second {
+  position: relative;
+  left: -15px;
+  margin-right: 15px;
+}
+
+.accordion__content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  background: #ffffff;
+  box-shadow: 0px 5px 20px rgba(0, 147, 193, 0.25);
+  border-radius: 10px;
+  color: #000000;
+
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion__content-title-img {
+  margin-right: 40px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+.accordion__content-title-text {
+  width: 85%;
+  margin-bottom: 29px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-right: 84px;
+  margin-top: 20px;
+}
+
+.accordion__content-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.03em;
+  margin-bottom: 37px;
+}

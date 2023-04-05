@@ -7,12 +7,10 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^8.37.0",
-    "http-server": "^14.1.1",
+    "eslint-plugin-jquery": "^1.5.1",
     "prettier": "2.8.7"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server src -o",
     "format": "prettier --write . --ignore-path .gitignore",
     "lint": "eslint . --ignore-path .gitignore --fix",
     "fix-style": "npm run format && npm run lint"

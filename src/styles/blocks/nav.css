@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 148px;
+}
+
+.nav__logo-link {
+  height: 58px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__item {
+  margin-right: 55px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  padding: 7px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nav__item:last-child .nav__link {
+  padding: 18px 28px;
+  background: #fdb913;
+  border-radius: 47px;
+}
