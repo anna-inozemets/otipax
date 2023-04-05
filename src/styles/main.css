@@ -1,0 +1,16 @@
+@import url('./normalize.css');
+@import url('./blocks/container.css');
+@import url('./blocks/section__title.css');
+@import url('./blocks/slick.css');
+@import url('./blocks/header.css');
+@import url('./blocks/nav.css');
+@import url('./blocks/reasons__slider.css');
+@import url('./blocks/who.css');
+@import url('./blocks/use.css');
+@import url('./blocks/adv.css');
+@import url('./blocks/assigment.css');
+@import url('./blocks/answers.css');
+@import url('./blocks/accordion.css');
+@import url('./blocks/order.css');
+@import url('./blocks/connect.css');
+@import url('./blocks/footer.css');

@@ -1,12 +1,733 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  Hello world!
-</body>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1920, user-scalable=no" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Otipax</title>
+  </head>
+  <body class="page__body">
+    <header class="page__header header">
+      <nav class="header__nav nav container">
+        <a href="#" class="nav__logo-link">
+          <img src="./images/logo.svg" alt="Otipax" class="nav__logo-icon" />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Про отит</a>
+          </li>
+          <li class="nav__item">
+            <a href="#useful" class="nav__link">Корисна інформація</a>
+          </li>
+          <li class="nav__item">
+            <a href="#instruction" class="nav__link">Інструкція</a>
+          </li>
+          <li class="nav__item">
+            <a href="#order" class="nav__link yellow-link">Де придбати?</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__description container">
+        <h1 class="header__title">
+          Проти вушного болю <br />
+          <span class="header__title-span">просто як 1, 2, 3, 4, 5!</span>
+        </h1>
+        <img
+          class="header__main-img"
+          src="./images/header-main-img.png"
+          alt="Otipax"
+        />
+      </div>
+      <a href="tel:+380000000000" class="header__action"></a>
+      <div class="header__slider">
+        <div class="header__slider-item">
+          <img src="./images/header.jpg" />
+        </div>
+        <div class="header__slider-item">
+          <img src="./images/header.jpg" />
+        </div>
+        <div class="header__slider-item">
+          <img src="./images/header.jpg" />
+        </div>
+        <div class="header__slider-item">
+          <img src="./images/header.jpg" />
+        </div>
+        <div class="header__slider-item">
+          <img src="./images/header.jpg" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="page__reasons reasons">
+        <div class="reasons__slider">
+          <div class="reasons__slider-item reasons__slider-item-first">
+            <img
+              src="./images/reasons__slider-item-first.png"
+              alt="Otipax is number one"
+            />
+            <div class="reasons__slider-description">
+              <h2 class="reasons__slider-title">
+                № <span class="reasons__slider-title-span">1</span> в Україні
+              </h2>
+            </div>
+          </div>
+          <div class="reasons__slider-item reasons__slider-item-second">
+            <img
+              src="./images/reasons__slider-item-second.png"
+              alt="Otipax's actions"
+            />
+            <div class="reasons__slider-description">
+              <h2 class="reasons__slider-title">
+                <span class="reasons__slider-title-span">2</span> синергічні
+                дії:
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                Знеболювальна та протизапальна
+              </p>
+            </div>
+          </div>
+          <div class="reasons__slider-item reasons__slider-item-third">
+            <img
+              src="./images/reasons__slider-item-third.png"
+              alt="Otipax for all"
+            />
+            <div class="reasons__slider-description">
+              <h2 class="reasons__slider-title">
+                <span class="reasons__slider-title-span">3</span> напрями <br />
+                застосування:
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                дітям, дорослим, в аптечку у відпустку
+              </p>
+            </div>
+          </div>
+          <div class="reasons__slider-item reasons__slider-item-fourth">
+            <img
+              src="./images/reasons__slider-item-fourth.png"
+              alt="How to use otipax?"
+            />
+            <div class="reasons__slider-description">
+              <h2 class="reasons__slider-title">
+                <span class="reasons__slider-title-span">4</span> краплі <br />
+                2-3 рази на добу
+              </h2>
+            </div>
+          </div>
+          <div class="reasons__slider-item reasons__slider-item-five">
+            <img
+              src="./images/reasons__slider-item-five.png"
+              alt="Otipax is number one"
+            />
+            <div class="reasons__slider-description">
+              <h2 class="reasons__slider-title">
+                <span class="reasons__slider-title-span">5</span> хвилин до
+                <br />
+                зменшення болю
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__who who container">
+        <h2 class="section__title">Для кого?</h2>
+        <div class="who__cards">
+          <div class="who__cards-first-column">
+            <img
+              class="who__card who__card-first"
+              src="./images/who-children.png"
+              alt="Children"
+            />
+            <p class="who__card-subtitle">
+              з 1-го місяця від <br />
+              народження
+            </p>
+            <img
+              class="who__card who__card-second"
+              src="./images/who-pregnant.png"
+              alt="Pregnant"
+            />
+            <p class="who__card-subtitle">Вагітні</p>
+          </div>
+          <div class="who__cards-main">
+            <h2 class="who__cards-title">Хто може застосовувати отипакс®?**</h2>
+          </div>
+          <div class="who__cards-second-column">
+            <img
+              class="who__card who__card-third"
+              src="./images/who-mums.png"
+              alt="Mums"
+            />
+            <p class="who__card-subtitle">
+              Годуючі <br />
+              мами
+            </p>
+            <img
+              class="who__card who__card-fourth"
+              src="./images/who-adults.png"
+              alt="Adults"
+            />
+            <p class="who__card-subtitle">Дорослі</p>
+          </div>
+        </div>
+      </section>
+      <section id="instruction" class="page__use use container">
+        <h2 class="section__title">Як застосовувати?</h2>
+        <div class="use__slider">
+          <div class="use__slider-item">
+            <img src="./images/use-first.png" alt="First step" />
+            <div class="use__slider-item-descrtiption">
+              <h2 class="reasons__slider-title">
+                Крок <span class="reasons__slider-title-span">1</span>
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                Відкрутити кришку флакону
+              </p>
+            </div>
+          </div>
+          <div class="use__slider-item">
+            <img src="./images/use-second.png" alt="Second step" />
+            <div class="use__slider-item-descrtiption">
+              <h2 class="reasons__slider-title">
+                Крок <span class="reasons__slider-title-span">2</span>
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                Дістати крапельницю з поліетиленового/паперового блістера
+              </p>
+            </div>
+          </div>
+          <div class="use__slider-item">
+            <img src="./images/use-third.png" alt="Third step" />
+            <div class="use__slider-item-descrtiption">
+              <h2 class="reasons__slider-title">
+                Крок <span class="reasons__slider-title-span">3</span>
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                Нагвинтити крапельницю на флакон
+              </p>
+            </div>
+          </div>
+          <div class="use__slider-item">
+            <img src="./images/use-fourth.png" alt="Fourth step" />
+            <div class="use__slider-item-descrtiption">
+              <h2 class="reasons__slider-title">
+                Крок <span class="reasons__slider-title-span">4</span>
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                Зняти ковпачок з крапельниці
+              </p>
+            </div>
+          </div>
+          <div class="use__slider-item">
+            <img src="./images/use-fives.png" alt="Fives step" />
+            <div class="use__slider-item-descrtiption">
+              <h2 class="reasons__slider-title">
+                Крок <span class="reasons__slider-title-span">5</span>
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                Повернути флакон догори дном, обережно натискати <br />
+                крапельницю, щоб отримати 1 краплю
+              </p>
+            </div>
+          </div>
+          <div class="use__slider-item">
+            <img src="./images/use-six.png" alt="Fives step" />
+            <div class="use__slider-item-descrtiption">
+              <h2 class="reasons__slider-title">
+                Крок <span class="reasons__slider-title-span">6</span>
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                Натискати далі до отримання 4-х крапель
+              </p>
+            </div>
+          </div>
+          <div class="use__slider-item">
+            <img src="./images/use-third.png" alt="Fives step" />
+            <div class="use__slider-item-descrtiption">
+              <h2 class="reasons__slider-title">
+                Крок <span class="reasons__slider-title-span">7</span>
+              </h2>
+              <p class="reasons__slider-item-subtitle">
+                Закрити крапельницю білим ковпачком
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page_adv adv container">
+        <h2 class="section__title">Переваги</h2>
+        <div class="adv__cards-wrapper">
+          <div class="adv__cards-row">
+            <div class="adv__cards-card card">
+              <img src="./images/adv-first.svg" class="card__img" />
+              <h3 class="card__title">ШВИДКЕ ЗНЯТТЯ БОЛЮ</h3>
+              <p class="card__descrtiption">
+                ОТИПАКС® — зменшує біль у вусі з 5–ї хвилини після закапування.*
+              </p>
+            </div>
+            <div class="adv__cards-card card">
+              <img src="./images/adv-second.svg" class="card__img" />
+              <h3 class="card__title">ШВИДКЕ ЗНЯТТЯ ЗАПАЛЕННЯ</h3>
+              <p class="card__descrtiption">
+                ОТИПАКС® — зменшує запалення у вусі з 15–ї хвилини після
+                закапування.*
+              </p>
+            </div>
+          </div>
+          <div class="adv__cards-row">
+            <div class="adv__cards-card card">
+              <img src="./images/adv-third.svg" class="card__img" />
+              <h3 class="card__title">ПОДВІЙНА ДІЯ</h3>
+              <p class="card__descrtiption">
+                У своєму складі, поєднує лідокаїн (місцевий анестетик) і феназон
+                (протизапальний засіб). ОТИПАКС® гарантує сінергічну подвійну
+                дію.
+              </p>
+            </div>
+            <div class="adv__cards-card card">
+              <img src="./images/adv-fourth.svg" class="card__img" />
+              <h3 class="card__title">БЕЗПЕКА ЗАСТОСУВАННЯ</h3>
+              <p class="card__descrtiption">
+                Клінічно доведена безпечність та ефективність місцевого
+                лікування за допомогою французських крапель ОТИПАКС®.
+              </p>
+            </div>
+          </div>
+          <div class="adv__cards-card card">
+            <img src="./images/adv-fives.svg" class="card__img" />
+            <h3 class="card__title">60 РОКІВ ДОСВІДУ</h3>
+            <p class="card__descrtiption">
+              ОТИПАКС® — №1 вибір за рекомендацією ЛОРів, педіатрів України.
+              ОТИПАКС® — лідер у 25 країнах світу.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="page__assignment assignment container">
+        <h2 class="assignment__title">
+          ОТИПАКС: ефективне вирішення проблем вушного болю
+        </h2>
+        <div class="assigment__content content">
+          <div class="content__ears">
+            <img src="./images/ears.svg" alt="ear" />
+            <p class="contant__ears-text">
+              Вуха – орган, від якого прямо залежить одне з основних почуттів
+              людини. При ураженні його збудниками інфекцій розвивається
+              запалення, яке здатне призвести не тільки до появи неприємних
+              больових відчуттів, але і до часткової або повної втрати слуху.
+              Найчастіше із проблемою розвитку отиту стикаються діти. Причина
+              такої “ранньої” переваги інфекцій проста й криється у
+              фізіологічних особливостях будови вушних каналів, по яким у
+              дитячому віці збудникам хвороби простіше дістатися місця ураження.
+              Перші ознаки захворювання багато хто не помічає, списуючи біль,
+              свербіж, погіршення слуху на миттєві проблеми. І лише з
+              погіршенням ситуації хворий починає шукати засоби для швидкого
+              позбавлення від недуги. <br />
+              <br />
+              Запальний процес у відділах вуха оториноларингології називають
+              отитом. Отити – найчастіші захворювання дитячого віку. До 95%
+              дітей переносять хоча б один епізод гострого середнього отиту за
+              перші 7 років життя [1].
+            </p>
+          </div>
+          <div class="content__cards">
+            <div class="content__cards-row">
+              <div class="content__card">
+                <h3 class="conten__card-title">Які симптоми при отиті?</h3>
+                <p class="content__card-text">
+                  Наявність проблеми слід запідозрити ще за появи перших ознак
+                  захворювання:
+                </p>
+                <ul class="content__card-list">
+                  <li class="content__card-item">
+                    слабкий біль у вухах, що поступово посилюється;
+                  </li>
+                  <li class="content__card-item">закладеність, шум у вухах;</li>
+                  <li class="content__card-item">зниження гостроти слуху;</li>
+                  <li class="content__card-item">відчуття тиску у вусі;</li>
+                  <li class="content__card-item">нудота;</li>
+                  <li class="content__card-item">підвищення температури;</li>
+                  <li class="content__card-item">
+                    набряклість органів слуху [3].
+                  </li>
+                </ul>
+                <p class="content__card-text">
+                  При своєчасному та правильному лікуванні симптоми поступово
+                  втрачають свою інтенсивність і сходять нанівець. При
+                  занедбаних станах отит може перейти в хронічну форму та
+                  викликати серйозні ускладнення, у тому числі мастоїдит, парез
+                  лицьового нерва, лабіринтит, менінгіт, розрив барабанної
+                  перетинки, хронічну приглухуватість та інші [2].
+                </p>
+              </div>
+              <div class="content__card">
+                <h3 class="conten__card-title">
+                  Як ефективно лікувати отит у дітей та дорослих: краплі ОТИПАКС
+                </h3>
+                <p class="content__card-text">
+                  ОТИПАКС є ефективним засобом для лікування отитів у дорослих
+                  та дітей віком від 1 місяця. У його складі — лідокаїн і
+                  феназон, що мають анальгетичні та протизапальні властивості.
+                  Така комбінація забезпечує швидкий знеболюючий ефект, що
+                  знімає запалення. Препарат починає активну дію вже через 5
+                  хвилин після закапування у слуховий прохід. Через 15-30 хвилин
+                  усувається більшість больових відчуттів [4]. <br />
+                  <br />
+                  ОТИПАКС призначають для симптоматичного лікування захворювань
+                  середнього вуха:
+                </p>
+                <ul class="content__card-list">
+                  <li class="content__card-item">середньому отиті;</li>
+                  <li class="content__card-item">післягрипозному отиті;</li>
+                  <li class="content__card-item">баротравматичному отиті.</li>
+                </ul>
+                <p class="content__card-text">
+                  Як використовувати краплі? Згідно з інструкцією незалежно від
+                  віку пацієнта, препарат закапують у зовнішній слуховий прохід
+                  2-3 рази на день по 4 краплі. Курс лікування визначає лікар,
+                  але тривалість прийому препарату не має перевищувати 10 діб
+                  [4].
+                </p>
+              </div>
+            </div>
+            <div class="content__cards-row">
+              <div class="content__card">
+                <h3 class="conten__card-title">
+                  Вушні краплі ОТИПАКС: спосіб застосування
+                </h3>
+                <p class="content__card-text">
+                  Нагрійте флакон із препаратом у долоні, відкрийте кришку та
+                  витягніть із пакетика дозатор-крапельницю. З’єднайте частини
+                  пристрою та зніміть захисний ковпачок із крапельниці.
+                  Переверніть флакон дозатором донизу і акуратно натисніть на
+                  нього для отримання краплі препарату. Після застосування добре
+                  закрийте крапельницю ковпачком. <br />
+                  <br />
+                  Перед використанням препарату слід звернутися до лікаря для
+                  проходження огляду та отримання рекомендацій. Вивчіть
+                  інструкцію із застосування.
+                </p>
+              </div>
+              <div class="content__card">
+                <h3 class="conten__card-title">
+                  Де і як замовити краплі ОТИПАКС
+                </h3>
+                <p class="content__card-text">
+                  ОТИПАКС — краплі, доступні за прийнятною ціною та призначені
+                  для застосування людьми різного віку, у тому числі підходять
+                  для лікування отитів у дітей від 1 місяця. Купити препарат
+                  можна без рецепта, оформивши замовлення онлайн. Доставка
+                  доступна по всій території України.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="useful" class="page__answer answer container">
+        <h2 class="section__title answer__title">Питання-відповіді</h2>
+        <div class="answer__accordion accordion">
+          <button class="accordion__button">
+            <img
+              class="accordion__button-img"
+              src="./images/accordion-first.svg"
+            />
+            КОЛИ Я МОЖУ ВИКОРИСТОВУВАТИ ОТИПАКС® ДЛЯ ЛІКУВАННЯ ДИТИНИ?
+          </button>
+          <div class="accordion__content">
+            <img
+              class="accordion__content-title-img"
+              src="./images/accordion-content.svg"
+            />
+            <div class="accordion__content-title">
+              <h3 class="accordion__content-title-text">
+                СКІЛЬКИ КРАПЕЛЬ ОТИПАКС® ПОТРІБНО, ЩОБ ЗНЯТИ БІЛЬ ПРИ ГОСТРОМУ
+                ОТИТІ СЕРЕДНЬОГО ВУХА?
+              </h3>
+              <p class="accordion__content-text">
+                Схема дозування ОТИПАКСУ® проста: 4 краплі 2 – 3 рази на день, а
+                тривалість лікування не повинна перевищувати 10 днів.
+                <br />
+                <br />
+                Якщо симптоми не зникають, слід обов‘язково проконсультуватися з
+                лікарем або фармацевтом.
+              </p>
+            </div>
+          </div>
+          <button class="accordion__button">
+            <img
+              class="accordion__button-img accordion__button-img--second"
+              src="./images/accordion-second.svg"
+            />
+            ОТИПАКС® ТІЛЬКИ ДЛЯ ДІТЕЙ?
+          </button>
+          <div class="accordion__content">
+            <img
+              class="accordion__content-title-img"
+              src="./images/accordion-content.svg"
+            />
+            <div class="accordion__content-title">
+              <h3 class="accordion__content-title-text">
+                СКІЛЬКИ КРАПЕЛЬ ОТИПАКС® ПОТРІБНО, ЩОБ ЗНЯТИ БІЛЬ ПРИ ГОСТРОМУ
+                ОТИТІ СЕРЕДНЬОГО ВУХА?
+              </h3>
+              <p class="accordion__content-text">
+                Схема дозування ОТИПАКСУ® проста: 4 краплі 2 – 3 рази на день, а
+                тривалість лікування не повинна перевищувати 10 днів.
+                <br />
+                <br />
+                Якщо симптоми не зникають, слід обов‘язково проконсультуватися з
+                лікарем або фармацевтом.
+              </p>
+            </div>
+          </div>
+          <button class="accordion__button">
+            <img
+              class="accordion__button-img"
+              src="./images/accordion-third.svg"
+            />
+            ЯК ДОВГО МОЖНА ЗБЕРІГАТИ ОТИПАКС® ПІСЛЯ ВІДКРИТТЯ ФЛАКОНА?
+          </button>
+          <div class="accordion__content">
+            <img
+              class="accordion__content-title-img"
+              src="./images/accordion-content.svg"
+            />
+            <div class="accordion__content-title">
+              <h3 class="accordion__content-title-text">
+                СКІЛЬКИ КРАПЕЛЬ ОТИПАКС® ПОТРІБНО, ЩОБ ЗНЯТИ БІЛЬ ПРИ ГОСТРОМУ
+                ОТИТІ СЕРЕДНЬОГО ВУХА?
+              </h3>
+              <p class="accordion__content-text">
+                Схема дозування ОТИПАКСУ® проста: 4 краплі 2 – 3 рази на день, а
+                тривалість лікування не повинна перевищувати 10 днів.
+                <br />
+                <br />
+                Якщо симптоми не зникають, слід обов‘язково проконсультуватися з
+                лікарем або фармацевтом.
+              </p>
+            </div>
+          </div>
+          <button class="accordion__button">
+            <img
+              class="accordion__button-img"
+              src="./images/accordion-fourth.svg"
+            />
+            ЯКА СЕРЕДНЯ ТРИВАЛІСТЬ КУРСУ ЛІКУВАННЯ?
+          </button>
+          <div class="accordion__content">
+            <img
+              class="accordion__content-title-img"
+              src="./images/accordion-content.svg"
+            />
+            <div class="accordion__content-title">
+              <h3 class="accordion__content-title-text">
+                СКІЛЬКИ КРАПЕЛЬ ОТИПАКС® ПОТРІБНО, ЩОБ ЗНЯТИ БІЛЬ ПРИ ГОСТРОМУ
+                ОТИТІ СЕРЕДНЬОГО ВУХА?
+              </h3>
+              <p class="accordion__content-text">
+                Схема дозування ОТИПАКСУ® проста: 4 краплі 2 – 3 рази на день, а
+                тривалість лікування не повинна перевищувати 10 днів.
+                <br />
+                <br />
+                Якщо симптоми не зникають, слід обов‘язково проконсультуватися з
+                лікарем або фармацевтом.
+              </p>
+            </div>
+          </div>
+          <button class="accordion__button">
+            <img
+              class="accordion__button-img"
+              src="./images/accordion-fives.svg"
+            />
+            ДЕ ВИРОБЛЯЮТЬ ОТИПАКС®?
+          </button>
+          <div class="accordion__content">
+            <img
+              class="accordion__content-title-img"
+              src="./images/accordion-content.svg"
+            />
+            <div class="accordion__content-title">
+              <h3 class="accordion__content-title-text">
+                СКІЛЬКИ КРАПЕЛЬ ОТИПАКС® ПОТРІБНО, ЩОБ ЗНЯТИ БІЛЬ ПРИ ГОСТРОМУ
+                ОТИТІ СЕРЕДНЬОГО ВУХА?
+              </h3>
+              <p class="accordion__content-text">
+                Схема дозування ОТИПАКСУ® проста: 4 краплі 2 – 3 рази на день, а
+                тривалість лікування не повинна перевищувати 10 днів.
+                <br />
+                <br />
+                Якщо симптоми не зникають, слід обов‘язково проконсультуватися з
+                лікарем або фармацевтом.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="order" class="page__order order">
+        <div class="order__shops">
+          <div class="order__shop">
+            <a
+              href="https://tabletki.ua/uk/%D0%9E%D1%82%D0%B8%D0%BF%D0%B0%D0%BA%D1%81/24841/"
+              class="order__shop-link-img"
+              target="_blank"
+            >
+              <img
+                src="./images/tabletki.png"
+                alt="Tabletki.ua"
+                class="order__shop-img"
+              />
+            </a>
+            <a
+              href="https://tabletki.ua/uk/%D0%9E%D1%82%D0%B8%D0%BF%D0%B0%D0%BA%D1%81/24841/"
+              class="order__shop-link"
+              target="_blank"
+            >
+              tabletki.ua
+            </a>
+            <button class="order__shop-button">Забронювати</button>
+          </div>
+          <div class="order__shop">
+            <a
+              href="https://liki24.com/uk/p/otipaks-kap-ush-fl-16-g-s-kryshkoj-kapelnicej-biocodex/"
+              class="order__shop-link-img"
+              target="_blank"
+            >
+              <img
+                src="./images/liki.png"
+                alt="Liki24.com"
+                class="order__shop-img"
+              />
+            </a>
+            <a
+              href="https://liki24.com/uk/p/otipaks-kap-ush-fl-16-g-s-kryshkoj-kapelnicej-biocodex/"
+              class="order__shop-link"
+              target="_blank"
+            >
+              liki24.com
+            </a>
+            <button class="order__shop-button">Забронювати</button>
+          </div>
+        </div>
+        <p class="order__text">або запитуйте в аптеках вашого міста</p>
+      </section>
+      <section class="page__connect connect container">
+        <div class="connect-content">
+          <div class="connect__banner">
+            <img
+              class="connect__banner-img"
+              src="./images/otipax-message.svg"
+              alt="Otipax"
+            />
+            <h3 class="connect__banner-title">Зворотний зв’язок</h3>
+            <p class="connect__banner-text">
+              Поділіться вашими враженнями від застосування продукту – надішліть
+              повідомлення <br />
+              щодо якості чи небажаних явищ компанії-імпортеру.
+            </p>
+            <a href="mailto:youremail@gmail.com" class="connect__banner-button">
+              НАПИСАТИ
+            </a>
+          </div>
+          <div class="connect__info">
+            <p class="connect__info-text">Список літератури:</p>
+            <ul class="connect__info-list">
+              <li class="connect__info-item">
+                Лікування отиту практично. Науково-практичний журнал для лікарів
+                “Медична рада”.
+              </li>
+              <li class="connect__info-item">
+                Г.М. Летіфов, Н.В. Бойко, І.В. Стагнієва, Ю.М. Лукашевич
+                Ефективність вакцинопрофілактики пневмококової інфекції та
+                динаміка захворюваності на гострий середній отит у дітей стр.
+                91.
+              </li>
+              <li class="connect__info-item">
+                Юдінцева М.С., Толмачова Є.А., Жучкова Т.В. Середній отит
+              </li>
+              <li class="connect__info-item">
+                Отипакс – інструкція із застосування
+              </li>
+              <li class="connect__info-item">Otipax 044 20.12.21</li>
+            </ul>
+            <p class="connect__info-text">
+              Висновок зроблено на основі аналітичних даних
+              інформаційно-аналітичної бази «Pharmxplorer», яка належить ТОВ
+              «Проксіма Рісерч» - лікарський засіб Отипакс® компанії Biocodex
+              (Франція) займає 1 (перше) місце в АТС 3 рівня S02D ІНШІ ЗАСОБИ,
+              ЩО ЗАСТОСОВУЮТЬСЯ В ОТОЛОГІЇ у натуральному (упак.) та грошовому
+              вимірах (грн.) на території України (без урахування тимчасово
+              окупованих територій) в динаміці за період з 2020 року по 1
+              півріччя 2021 року. Комбінація феназону з лідокаїном зумовлює
+              синергічний знеболювальний/протизапальний ефект. Дія препарату
+              (зменшення болісності барабанної перетинки та редукція запалення)
+              розпочинається з 5-ї хвилини після закапування.
+            </p>
+            <ol class="connect__info-list-num">
+              <li class="connect__info-item-num">
+                При необхідності ОТИПАКС® можна застосовувати у період
+                вагітності або годування груддю після консультації з лікарем. За
+                даними публікації:
+              </li>
+              <li class="connect__info-item-num">
+                Попович В.І. «Гострий середній отит: ефективний контроль болю»,
+                Журнал вушних, носових і горлових хвороб, №3, 2015
+              </li>
+              <li class="connect__info-item-num">
+                Косаковський А.Л. «Лікування болю — пріоритетне завдання в
+                терапії неускладненого гострого середнього отиту в дітей»,
+                «Сучасна педіатрія» №1(65)/2015.
+              </li>
+              <li class="connect__info-item-num">
+                Косаковський А.Л. Юрочко Ф.Б. «Гострий Середній Отит. Що далі?»
+                Медицина світу, 2016. 5. Карпова Е.П., Бурлакова К.Ю.
+                «Воспалительные заболевания среднего уха у детей» Медицинский
+                совет, Бронхопульминология и ЛОР, №9 2017
+              </li>
+            </ol>
+            <p class="connect__info-text">
+              Реклама лікарського засобу. Перед застосуванням обов’язково
+              ознайомтесь з інструкцією та проконсультуйтесь з лікарем.
+              <br />
+              <br />
+              Інструкція для медичного застосування лікарського засобу Отипакс ®
+              згідно наказу МОЗ України від 24.06.2019 № 1438. Р.П. №
+              UA/5205/01/01, наказ МОЗ України від 24.11.2016 № 1275.
+              Відпускається без рецепта. Зберігати у недоступному для дітей
+              місці.
+              <br />
+              <br />
+              ТОВ «БІОКОДЕКС УКРАЇНА», пр. Степана Бандери, 28-А, Літера Г,
+              Київ, Україна, 04073. Тел./факс: +38044 2377784
+              <br />
+              <br />
+              Виробник: «БІОКОДЕКС», Франція. Всі права захищені Ot 02
+              17.10.2019.
+              <br />
+              <br />
+              Виробник ОТИПАКС® французька компанія БІОКОДЕКС. Цей веб-сайт
+              призначений для української аудиторії та підпорядковується
+              правовим нормам, що діють в Україні © Copyright Biocodex 2022
+            </p>
+          </div>
+          <img
+            src="./images/logo-blue.svg"
+            alt="Otipax"
+            class="connect__logo"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="page__footer footer container">
+      <img class="fotter__img" src="./images/footer.svg" alt="WARNING" />
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./scripts/headerSlider.js"></script>
+    <script src="./scripts/reasonsSlider.js"></script>
+    <script src="./scripts/useSlider.js"></script>
+    <script src="./scripts/answerAccordion.js"></script>
+  </body>
 </html>

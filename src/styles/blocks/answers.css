@@ -1,0 +1,10 @@
+.answer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.answer__title {
+  height: 690px;
+  margin-right: 30px;
+}

@@ -1,0 +1,14 @@
+.section__title {
+  width: max-content;
+  margin-right: 150px;
+  font-size: 48px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7cd5ff;
+  opacity: 0.33;
+  writing-mode: vertical-rl;
+  text-align: center;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,66 @@
+.header {
+  height: 940px;
+}
+
+.header__nav {
+  margin-top: 48px;
+}
+
+.header__title {
+  margin-left: 170px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 62px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.header__title-span {
+  color: #fdb913;
+}
+
+.header__main-img {
+  margin-left: 125px;
+}
+
+.header__action {
+  position: fixed;
+  z-index: 1;
+  bottom: 87px;
+  right: 158px;
+  height: 90px;
+  width: 90px;
+  background-color: #fdb913;
+  background-image: url('../../images/action.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.header__action::after {
+  position: absolute;
+  bottom: -30px;
+  width: max-content;
+  content: "Зв'яжіться з нами";
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  transform: translateX(-25%);
+}
+
+.header__slider {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.header__slider .slick-dots {
+  position: relative;
+  bottom: 58px;
+}

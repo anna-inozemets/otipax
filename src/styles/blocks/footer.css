@@ -1,0 +1,6 @@
+.fotter__img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 80px;
+}
