@@ -30,3 +30,10 @@
 .slick-dots li.slick-active button {
   opacity: 1;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .slick-dots li button {
+    height: 5px;
+    width: 5px;
+  }
+}

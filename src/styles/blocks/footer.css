@@ -4,3 +4,27 @@
   transform: translateX(-50%);
   margin-bottom: 80px;
 }
+
+.fotter__img {
+  width: 100%;
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .fotter__img {
+    margin-bottom: 60px;
+  }
+  
+  .fotter__img {
+    width: 90%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .fotter__img {
+    margin-bottom: 25px;
+  }
+  
+  .fotter__img {
+    width: 85%;
+  }
+}
