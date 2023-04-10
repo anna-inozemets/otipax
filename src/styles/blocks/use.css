@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   min-width: 0;
+  height: 580px;
   margin-bottom: 115px;
 }
 
@@ -17,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: 40px;
   height: 500px;
   background-image: url('../../images/use-slider-bcimg.png');
   background-size: contain;
@@ -34,6 +35,7 @@
   width: 114px;
   font-size: 0;
   background-color: transparent;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -47,4 +49,112 @@
 .use__slider .slick-arrow.slick-next {
   bottom: -30px;
   background-image: url('../../images/bottom-arrow.svg');
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .use__slider-item {
+    justify-content: flex-start;
+    gap: 80px;
+    height: 500px;
+  }
+  
+  .use__slider .slick-arrow {
+    height: 130px;
+    width: 94px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .use {
+    height: 550px;
+    margin-bottom: 95px;
+  }
+
+  .use__slider-item {
+    justify-content: flex-start;
+    gap: 80px;
+    height: 400px;
+  }
+
+  .use__slider img {
+    height: 75%;
+  }
+  
+  .use__slider .slick-arrow {
+    height: 110px;
+    width: 74px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .use {
+    display: block;
+    height: auto;
+    margin-bottom: 65px;
+  }
+  
+  .use__slider-item {
+    gap: 40px;
+    height: 500px;
+  }
+
+  .use__slider img {
+    height: 55%;
+  }
+
+  .use__slider-title {
+    margin: 0 0 15px;
+    text-align: left;
+  }
+  
+  .use__slider .slick-arrow {
+    height: 100px;
+    width: 64px;
+  }
+  
+  .use__slider .slick-arrow.slick-prev {
+    top: 0;
+  }
+  
+  .use__slider .slick-arrow.slick-next {
+    bottom: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .use {
+    display: block;
+    height: auto;
+    margin-bottom: 45px;
+  }
+  
+  .use__slider-item {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    gap: 10px;
+    height: 250px;
+    background-image: none;
+  }
+
+  .use__slider img {
+    height: 25%;
+  }
+
+  .use__slider-title {
+    margin: 0 auto 15px;
+  }
+  
+  .use__slider .slick-arrow {
+    height: 50px;
+    width: 32px;
+  }
+  
+  .use__slider .slick-arrow.slick-prev {
+    top: 0;
+  }
+  
+  .use__slider .slick-arrow.slick-next {
+    bottom: 0;
+  }
 }

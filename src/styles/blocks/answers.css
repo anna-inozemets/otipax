@@ -8,3 +8,38 @@
   height: 690px;
   margin-right: 30px;
 }
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .answer {
+    margin-bottom: 60px;
+  }
+  
+  .answer__title {
+    height: 550px;
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .answer {
+    display: block;
+    margin-bottom: 65px;
+  }
+  
+  .answer__title {
+    height: auto;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .answer {
+    display: block;
+    margin-bottom: 45px;
+  }
+  
+  .answer__title {
+    height: auto;
+    margin-right: 0;
+  }
+}

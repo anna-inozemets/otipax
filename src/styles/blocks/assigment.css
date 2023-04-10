@@ -71,17 +71,21 @@
 }
 
 .content__card-list {
-  margin-bottom: 25px;
-  font-size: 18px;
-  line-height: 27px;
-  letter-spacing: 0.03em;
-  color: #5f5f5f;
   list-style: none;
 }
 
 .content__card-item {
   position: relative;
   padding-left: 17px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #5f5f5f;
+}
+
+.content__card-item:last-child {
+  margin-bottom: 25px;
 }
 
 .content__card-item::before {
@@ -89,4 +93,255 @@
   position: absolute;
   left: 0;
   color: #fdb913;
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .assignment {
+    margin-bottom: 80px;
+  }
+  
+  .assignment__title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  
+  .content__ears {
+    padding: 45px 80px;
+    margin-bottom: 25px;
+  }
+  
+  .contant__ears-text {
+    margin-left: 80px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .content__cards-row {
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .content__card {
+    padding: 35px;
+  }
+  
+  .conten__card-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  .content__card-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .content__card-text:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  .content__card-item {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  
+  .content__card-item:last-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .assignment {
+    margin-bottom: 60px;
+  }
+  
+  .assignment__title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  
+  .content__ears {
+    padding: 25px 70px;
+  }
+  
+  .contant__ears-text {
+    margin-left: 80px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .content__cards-row {
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .content__card {
+    padding: 25px;
+  }
+  
+  .conten__card-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .content__card-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .content__card-text:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  .content__card-item {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  
+  .content__card-item:last-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .assignment {
+    margin-bottom: 65px;
+  }
+  
+  .assignment__title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  
+  .assigment__content {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .content__ears {
+    display: block;
+    padding: 25px;
+  }
+
+  .content__ears-img {
+    display: none;
+  }
+  
+  .contant__ears-text {
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  .content__cards-row {
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 23px;
+  }
+  
+  .content__card {
+    width: 100%;
+    padding: 25px;
+  }
+  
+  .conten__card-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .content__card-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .content__card-text:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  .content__card-list {
+    list-style: none;
+  }
+  
+  .content__card-item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .content__card-item:last-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .assignment {
+    margin-bottom: 65px;
+  }
+  
+  .assignment__title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .assigment__content {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .content__ears {
+    display: block;
+    padding: 25px;
+  }
+
+  .content__ears-img {
+    display: none;
+  }
+  
+  .contant__ears-text {
+    margin-left: 0;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .content__cards-row {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .content__card {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .conten__card-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .content__card-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .content__card-text:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  .content__card-list {
+    list-style: none;
+  }
+  
+  .content__card-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .content__card-item:last-child {
+    margin-bottom: 15px;
+  }
 }
