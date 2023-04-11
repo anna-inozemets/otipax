@@ -161,6 +161,7 @@
   }
 
   .adv__cards-row {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 20px;

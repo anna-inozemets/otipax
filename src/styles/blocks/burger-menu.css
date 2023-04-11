@@ -27,6 +27,7 @@
     padding: 25px 25px 0 10px;
     height: 100vh;
     position: absolute;
+    z-index: 2;
     top: 0;
     left: 0;
     list-style: none;
@@ -108,5 +109,11 @@
   .burger-menu-button.open .burger-icon-bar:nth-child(2) {
     transform: scaleX(0);
     background-color: transparent;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .burger-menu {
+    margin-bottom: 25px;
   }
 }
