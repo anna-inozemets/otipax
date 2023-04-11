@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../../../fonts/gothampro.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../../../fonts/gothampro_bold.ttf');
+  font-weight: 700;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ol,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: all 0.5s;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

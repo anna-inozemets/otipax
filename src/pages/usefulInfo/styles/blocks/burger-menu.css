@@ -1,0 +1,110 @@
+.page__body__with-burger-menu {
+  overflow: hidden;
+}
+
+.burger-menu {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+
+  .burger-menu__logo-link {
+    height: 30px;
+  }
+
+  .burger-menu__logo-icon {
+    height: 30px;
+  }
+
+  .burger-menu__list {
+    padding: 25px 25px 0 10px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    width: 75%;
+    transform: translateX(-100%);
+    background-color: #3592BE;
+
+    transition: all 0.5s ease;
+  }
+
+  .burger-menu__item {
+    margin-bottom: 15px;
+  }
+
+  .burger-menu__link {
+    padding: 7px 5px;
+    font-size: 14px;
+    line-height: 13px;
+    color: #fff;
+  }
+
+  .burger-menu__item:last-child {
+    padding: 0 5px;
+    background: #fdb913;
+    border-radius: 47px;
+  }
+
+  .burger-menu-button.open + .burger-menu__list {
+    box-shadow: 75px 0px 37px 20px rgba(0,0,0,0.4);
+    transform: translateX(0);
+  }
+
+  .burger-menu-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+
+  .burger-icon {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 20px;
+    height: 15px;
+    position: relative;
+  }
+
+  .burger-icon-bar {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #2A64B1;
+    border-radius: 2px;
+
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  .burger-icon-bar:first-child {
+    transform-origin: top left;
+  }
+
+  .burger-icon-bar:last-child {
+    transform-origin: bottom left;
+  }
+  
+  .burger-menu-button.open .burger-icon-bar:first-child {
+    transform: rotate(45deg);
+  }
+  
+  .burger-menu-button.open .burger-icon-bar:last-child {
+    transform: rotate(-45deg);
+  }
+  
+  .burger-menu-button.open .burger-icon-bar:nth-child(2) {
+    transform: scaleX(0);
+    background-color: transparent;
+  }
+}
