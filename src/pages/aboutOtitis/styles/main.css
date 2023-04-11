@@ -1,0 +1,10 @@
+@import url('../../../styles/normalize.css');
+@import url('../../../styles/blocks/section__title.css');
+@import url('../../../styles/blocks/container.css');
+@import url('./blocks/header.css');
+@import url('../../usefulInfo/styles/blocks/nav.css');
+@import url('../../usefulInfo/styles/blocks/burger-menu.css');
+@import url('./blocks/about.css');
+@import url('./blocks/answer.css');
+@import url('../../../styles/blocks/connect.css');
+@import url('../../../styles/blocks/footer.css');
