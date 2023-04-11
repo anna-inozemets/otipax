@@ -1,0 +1,132 @@
+.header {
+  margin-bottom: 140px;
+}
+
+.header__nav {
+  margin-top: 48px;
+}
+
+.header__action {
+  position: fixed;
+  z-index: 1;
+  bottom: 87px;
+  right: 158px;
+  height: 90px;
+  width: 90px;
+  background-color: #fdb913;
+  background-image: url('../../../../images/action.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  border-radius: 50%;
+}
+
+.header__action::after {
+  position: absolute;
+  bottom: -30px;
+  width: max-content;
+  content: "Зв'яжіться з нами";
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #3592BE;
+  transform: translateX(-25%);
+}
+
+@media (min-width: 1921px) {
+  .header {
+    margin-bottom: 140px;
+  }
+
+  .header__action {
+    background-size: 60%;
+    bottom: 70px;
+    right: 105px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .header__action {
+    bottom: 87px;
+    right: 158px;
+    height: 75px;
+    width: 75px;
+    background-size: 65%;
+  }
+  
+  .header__action::after {
+    font-size: 18px;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .header {
+    margin-bottom: 100px;
+  }
+  
+  .header__nav {
+    margin-top: 30px;
+  }
+
+  .header__action {
+    bottom: 70px;
+    right: 100px;
+    height: 55px;
+    width: 55px;
+    background-size: 60%;
+  }
+  
+  .header__action::after {
+    font-size: 14px;
+    line-height: 13px;
+    transform: translateX(-30%);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .header {
+    margin-bottom: 75px;
+  }
+  
+  .header__nav {
+    margin-top: 30px;
+  }
+
+  .header__action {
+    bottom: 50px;
+    right: 60px;
+    height: 40px;
+    width: 40px;
+    background-size: 45%;
+  }
+  
+  .header__action::after {
+    bottom: -20px;
+    font-size: 12px;
+    line-height: 11px;
+    transform: translateX(-35%);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 45px;
+  }
+
+  .header__action {
+    bottom: 25px;
+    right: 25px;
+    height: 30px;
+    width: 30px;
+    background-size: 60%;
+  }
+  
+  .header__action::after {
+    content: "";
+  }
+}
