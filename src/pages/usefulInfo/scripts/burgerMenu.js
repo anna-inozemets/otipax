@@ -8,7 +8,7 @@ burgerMenu.addEventListener('click', () => {
 
   window.addEventListener('hashchange', () => {
     if (window.location.hash.length !== 0) {
-      burgerMenu.classList.toggle('open');
+      burgerMenu.classList.remove('open');
       document.body.classList.remove('page__body__with-burger-menu');
     }
   });

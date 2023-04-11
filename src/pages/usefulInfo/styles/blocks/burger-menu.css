@@ -27,6 +27,7 @@
     padding: 25px 25px 0 10px;
     height: 100vh;
     position: absolute;
+    z-index: 2;
     top: 0;
     left: 0;
     list-style: none;

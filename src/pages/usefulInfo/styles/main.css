@@ -4,8 +4,10 @@
 @import url('./blocks/nav.css');
 @import url('./blocks/burger-menu.css');
 @import url('./blocks/useful.css');
+@import url('./blocks/buy.css');
 @import url('../../../styles/blocks/section__title.css');
 @import url('../../../styles/blocks/slick.css');
+@import url('../../../styles/blocks/connect.css');
 
 
 @import url('../../../styles/blocks/footer.css');
