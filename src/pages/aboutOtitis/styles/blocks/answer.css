@@ -96,3 +96,47 @@
     padding-bottom: 55px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .answer__content {
+    padding-top: 65px;
+    padding-bottom: 105px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .answer {
+    margin-bottom: 65px;
+  }
+  
+  .answer__content {
+    padding-top: 45px;
+    padding-bottom: 65px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .answer__card {
+    margin-bottom: 15px;
+    padding: 25px 15px;
+  }
+
+  .answer__card-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .answer__card-text {
+    margin-bottom: 10px;
+    line-height: 12px;
+  }
+
+  .answer__card-list {
+    line-height: 12px;
+  }
+
+  .answer__card-list-num {
+    line-height: 12px;
+  }
+}

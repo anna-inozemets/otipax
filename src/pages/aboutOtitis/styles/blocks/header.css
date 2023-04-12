@@ -86,7 +86,7 @@
 
 @media (min-width: 769px) and (max-width: 1199px) {
   .header {
-    margin-bottom: 75px;
+    margin-bottom: 30px;
   }
   
   .header__nav {
@@ -115,7 +115,7 @@
   }
 
   .header {
-    margin-bottom: 48px;
+    margin-bottom: -10px;
   }
 
   .header__action {

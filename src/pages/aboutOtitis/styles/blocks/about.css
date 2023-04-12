@@ -90,6 +90,7 @@
 .about__info-paragraph {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 105px;
 }
 
@@ -108,6 +109,7 @@
 }
 
 .about__info-paragraph-text {
+  text-align: center;
   max-width: 511px;
 }
 
@@ -201,7 +203,7 @@
   }
   
   .pain {
-    margin-bottom: 100px;
+    justify-content: center;
   }
   
   .pain__degree {
@@ -234,6 +236,7 @@
   }
 
   .about__info-paragraph {
+    justify-content: center;
     margin-bottom: 65px;
   }
 
@@ -271,6 +274,247 @@
 
   .about__complication-arrow {
     width: 38px;
+  }
+  
+  .about__complication-text {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .about__content {
+    padding-top: 65px;
+    padding-bottom: 105px;
+  }
+  
+  .about__article {
+    padding: 50px;
+  }
+
+  .about__paragraph-title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  
+  .about__paragraph-text {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .section__title.pain__title {
+    margin-right: 0;
+  }
+  
+  .pain {
+    flex-direction: column;
+    margin-bottom: 65px;
+    
+  }
+  
+  .pain__degree {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .pain__degree-title {
+    margin-bottom: 8px;
+    font-size: 22px;
+    line-height: 21px;
+  }
+  
+  .pain__degree-subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .pain__image {
+    height: 210px;
+  }
+  
+  .about__info-paragraph {
+    margin-bottom: 65px;
+  }
+  
+  .about__info-paragraph-title {
+    width: 350px;
+    margin-right: 50px;
+  }
+  
+  .about__info-arrow {
+    height: 48px;
+    margin-right: 35px;
+  }
+  
+  .about__info-paragraph-text {
+    max-width: 220px;
+  }
+  
+  .about__effects-title {
+    margin-bottom: 25px;
+  }
+
+  .about__effect {
+    height: 220px;
+  }
+
+  .about__effect-img{
+    width: 75px;
+  }
+  
+  .about__effect-arrow {
+    width: 25px;
+  }
+  
+  .about__effect-text {
+    max-width: 180px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  
+  .about__complication-paragraph {
+    margin-bottom: 30px;
+  }
+
+  .about__complication-arrow {
+    width: 25px;
+  }
+  
+  .about__complication-text {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .about__content {
+    padding-top: 45px;
+    padding-bottom: 65px;
+  }
+  
+  .about__article {
+    padding: 30px;
+  }
+
+  .about__paragraph-title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .about__paragraph-text {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .pain {
+    flex-direction: column;
+    margin-bottom: 65px;
+  }
+  
+  .pain__degree {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .pain__degree img {
+    width: 300px;
+  }
+  
+  .pain__degree-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 17px;
+  }
+  
+  .pain__degree-subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .pain__images {
+    flex-direction: column;
+  }
+
+  .pain__image {
+    height: 210px;
+  }
+
+  .pain__image:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  
+  .pain__image:first-child {
+    display: none;
+  }
+  
+  .about__info-paragraph {
+    flex-direction: column;
+    margin-bottom: 65px;
+  }
+  
+  .about__info-paragraph-title {
+    font-size: 16px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  
+  .about__info-arrow {
+    transform: rotate(90deg);
+    height: 38px;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  
+  .about__info-paragraph-text {
+    max-width: 100%;
+  }
+
+  .about__effects-paragraph {
+    flex-direction: column;
+  }
+  
+  .about__effects-title {
+    margin-bottom: 25px;
+  }
+
+  .about__effect {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .about__effect:last-child {
+    margin-bottom: 0;
+  }
+
+  .about__effect-img{
+    width: 65px;
+  }
+  
+  .about__effect-arrow {
+    transform: rotate(360deg);
+    width: 25px;
+  }
+  
+  .about__effect-text {
+    max-width: 80px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  
+  .about__complication-paragraph {
+    margin-bottom: 30px;
+  }
+
+  .about__complication-arrow {
+    width: 25px;
   }
   
   .about__complication-text {
