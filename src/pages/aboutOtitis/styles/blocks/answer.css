@@ -1,0 +1,142 @@
+.answer {
+  background-color: #BFEAFF;
+  margin-bottom: 190px;
+}
+
+.answer__content {
+  padding-top: 140px;
+  padding-bottom: 85px;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.answer__row {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.answer__card {
+  margin-bottom: 30px;
+  padding: 45px 35px;
+  background: #FFFFFF;
+  border: 1px solid #FDB913;
+  border-radius: 38px;
+}
+
+.answer__card:last-child {
+  margin-bottom: 0;
+}
+
+.answer__card-title {
+  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.answer__card-text {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #5F5F5F;
+}
+
+.answer__card-text.answer__card-text--before-list {
+  margin-bottom: 5px;
+}
+
+.answer__card-text--bold {
+  font-weight: 700;
+}
+
+.answer__card-text:last-child {
+  margin-bottom: 0;
+}
+
+.answer__card-list {
+  list-style: none;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #5F5F5F;
+}
+
+.answer__card-list-item {
+  position: relative;
+  padding-left: 17px;
+}
+
+.answer__card-list-item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #fdb913;
+}
+
+.answer__card-list-num {
+  padding-left: 15px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #5F5F5F;
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .answer__content {
+    padding-top: 110px;
+    padding-bottom: 55px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .answer__content {
+    padding-top: 65px;
+    padding-bottom: 105px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .answer {
+    margin-bottom: 65px;
+  }
+  
+  .answer__content {
+    padding-top: 45px;
+    padding-bottom: 65px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .answer__card {
+    margin-bottom: 15px;
+    padding: 25px 15px;
+  }
+
+  .answer__card-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .answer__card-text {
+    margin-bottom: 10px;
+    line-height: 12px;
+  }
+
+  .answer__card-list {
+    line-height: 12px;
+  }
+
+  .answer__card-list-num {
+    line-height: 12px;
+  }
+}
